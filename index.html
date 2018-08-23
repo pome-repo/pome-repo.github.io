@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <a class="navbar-brand" href="/">POME</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>
+
+<main role="main" class="container">
+  <div class="jumbotron">
+    <h1>POME</h1>
+    <p class="lead">This page contains the replication package for the paper <b><em>"Pattern-based Mining of Opinions in Q&A Websites"</em></b>.</p>
+  </div>
+
+  <div class="container">
+    <p class="lead">You can download the replication package here: <a href="replication.zip">replication.zip</a>.</p>
+    <p class="lead">In the replication package, you can find the following folders/files:</p>
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Folder "patterns"</h5>
+        </div>
+        <p class="mb-1">This folder contains an html file "patterns.html" whcih described the patterns we used in POME, including the example sentences. Please ensure your internet connection is working when you open the file.</p>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Folder "datasets"</h5>
+        </div>
+        <p class="mb-1">File "data_rq1_rq2.csv" contains the dataset we manually labeled for RQ1 and RQ2. File "data_rq3_pome.csv" and "data_rq3_opiner.csv" contain the data used for RQ3 (collected from POME and Opiner, respectively), including the aspect and sentiment labeled by evaluators. </p>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Folder "results"</h5>
+        </div>
+        <p class="mb-1">Inside "results", folder "results_rq1" contains the results of RQ1. Inside you can find the performance of 10 different machine learning approachs using seven different set of features. The results without SMOTE are in the folder "Without SMOTE", and the results with SMOTE are in the folder "With SMOTE". Result for pattern-matching approach is in the "pattern matching.csv" file.</p>
+        <p>File "results_rq2.csv" contains the raw results for RQ2, namely the polarity detection results of POME and other 6 state-of-the-art sentiment analysis tools we compared with in the paper.</p>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Folder "POME code"</h5>
+        </div>
+        <p class="mb-1">This folder contains the source code of POME, as well as an example file for demonstrating the usage.</p>
+      </a>
+      <p></p>
+    </div>
+  </div>
+</main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
+</html>
